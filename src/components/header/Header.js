@@ -23,7 +23,7 @@ const Header = (props) => {
                             <div className="col-lg-2 col-md-6 col-6">
                                 <div className="navbar-header">
                                     <Link onClick={ClickHandler} className="navbar-brand site-logo" to="/"><img
-                                        src={Logo} alt="" />Michael Gringauz</Link>
+                                        src={Logo} alt="" />Michael G</Link>
                                 </div>
                             </div>
                             <div className="col-lg-8 col-md-1 col-1">
