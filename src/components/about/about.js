@@ -4,7 +4,7 @@ import shape2 from '../../images/about/shape2.png'
 
 
 const About = (props) => {
-    return(
+    return (
         <div className="wpo-about-area section-padding" id='about'>
             <div className="container">
                 <div className="row align-items-center">
@@ -23,10 +23,10 @@ const About = (props) => {
                     <div className="col-lg-6 offset-lg-1 col-md-12 col-sm-12">
                         <div className="wpo-about-content">
                             <div className="wpo-about-title">
-                                <h2>My Competetive Advantage</h2>
+                                <h2>What your future CAN look like?</h2>
                                 <p>In all of my time as a software engineer I have sharpened my skills across the latest
-                                     and greatest technologies that the market demanded the most. The below is just a brief
-                                      synopsis of technologies that I am very familiar with.</p>
+                                    and greatest technologies that the market demanded the most. The below is just a brief
+                                    synopsis of technologies that I am very familiar with.</p>
                             </div>
                             <div className="wpo-about-funfact">
                                 <div className="grid">
@@ -101,10 +101,10 @@ const About = (props) => {
                 </svg>
             </div>
             <div className="line-shape-1">
-                <img src={shape1} alt=""/>
+                <img src={shape1} alt="" />
             </div>
             <div className="line-shape-2">
-                <img src={shape2} alt=""/>
+                <img src={shape2} alt="" />
             </div>
         </div>
     )

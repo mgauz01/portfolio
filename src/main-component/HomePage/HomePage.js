@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import About from '../../components/about/about';
 import BlogSection from '../../components/BlogSection/BlogSection';
 import ContactArea from '../../components/ContactArea';
@@ -12,21 +12,21 @@ import Scrollbar from '../../components/scrollbar/scrollbar';
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
 import Testimonial from '../../components/Testimonial/Testimonial';
 
-const HomePage =() => {
-    return(
+const HomePage = () => {
+    return (
         <Fragment>
-            <Navbar hclass={'wpo-header-style-1'} topbarNone={'topbar-none'}/>
-            <Hero/>
-            <About/>
-            <ServiceSection/>
-            <Exprience/>
+            <Navbar hclass={'wpo-header-style-1'} topbarNone={'topbar-none'} />
+            <Hero />
+            {/* <About/> */}
+            {/* <ServiceSection /> */}
+            <Exprience />
             {/* <ProjectSection/> */}
             {/* <Testimonial/> */}
-            <Pricing/>
-            <ContactArea/>
+            {/* <Pricing /> */}
+            <ContactArea />
             {/* <BlogSection/> */}
             {/* <Footer/> */}
-            <Scrollbar/>
+            <Scrollbar />
         </Fragment>
     )
 };

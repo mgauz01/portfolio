@@ -1,18 +1,27 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import logo1 from '../../images/work/render.png'
 import logo2 from '../../images/work/intel.png'
 import logo3 from '../../images/work/upwork.png'
-import logo4 from '../../images/work/4.png'
+import logo4 from '../../images/work/petco.png'
 import SectionTitle from '../SectionTitle/SectionTitle'
 
 const Expriences = [
     {
-        date: '2022 - Present',
+        date: '2023 - Present',
+        logo: logo4,
+        position: 'Senior AWS Engineer',
+        companyName: 'Petco',
+        workFrom: '\nToronto, Canada',
+        website: 'https://www.petco.com/',
+    },
+    {
+        date: '2022 - 2023',
         logo: logo1,
         position: 'Backend Engineer',
-        companyName: 'Trapeza Group, USA.',
-        workFrom: 'https://renderseo.com/',
+        companyName: 'RenderSEO.',
+        workFrom: '\nToronto, Canada',
+        website: 'https://renderseo.com/',
     },
     {
         date: '2021 - 2022',
@@ -38,13 +47,13 @@ const Exprience = (props) => {
     return (
         <div className="wpo-work-area section-padding">
             <div className="container">
-                <SectionTitle Title={'My Work Experience'} />
+                <SectionTitle Title={'Clinets Include...'} />
                 <div className="wpo-work-wrap">
                     {Expriences.map((exprience, exp) => (
                         <div className="wpo-work-item" key={exp}>
                             <ul>
                                 <li className="date">{exprience.date}</li>
-                                <li className="logo"><img src={exprience.logo} alt=""/></li>
+                                <li className="logo"><img src={exprience.logo} alt="" /></li>
                                 <li className="position">{exprience.position} <span>{exprience.companyName} <span>{exprience.workFrom}</span></span></li>
                                 <li className="link"><a href={exprience.website}> Go to website </a></li>
                             </ul>

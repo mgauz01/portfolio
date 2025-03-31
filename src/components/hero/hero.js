@@ -1,5 +1,5 @@
 import React from "react";
-import { Link} from 'react-scroll'
+import { Link } from 'react-scroll'
 
 import hero1 from '../../images/slider/1.jpg'
 
@@ -22,18 +22,18 @@ const Hero = () => {
                             <div className="col-xl-6 col-lg-6 col-12">
                                 <div className="wpo-static-hero-inner">
                                     <div data-swiper-parallax="300" className="slide-title">
-                                        <h2><span>Greetings!</span>
-                                            I am Michael.</h2>
+                                        <h2><span>We are...</span>
+                                            CoreScale Solutions</h2>
                                     </div>
                                     <div data-swiper-parallax="300" className="slide-sub-title">
-                                        <h5>Software Engineer</h5>
+                                        {/* <h5>Software Engineer</h5> */}
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
-                                        <p>I seek out to build the newest and most cutting edge software enterprise applications to
-                                             allow companies to scale, speed up and innovate more efficiently</p>
+                                        <p>We seek out help companies get rid of the ir complicated backend infastructure to
+                                            to give them back more time to scale, and innovate efficiently on their product</p>
                                     </div>
                                     <div className="clearfix"></div>
-                                    <div className="slide-btn"><Link className="theme-btn" to="contact" spy={true} smooth={true}  duration={500}>Work With Me</Link></div>
+                                    <div className="slide-btn"><Link className="theme-btn" to="contact" spy={true} smooth={true} duration={500}>GET STARTED</Link></div>
                                 </div>
                             </div>
                         </div>
