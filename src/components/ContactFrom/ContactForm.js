@@ -87,9 +87,11 @@ const ContactForm = () => {
                             type="text"
                             name="subject">
                             <option>Choose a Service</option>
-                            <option>Web Design</option>
-                            <option>Web Development</option>
-                            <option>Marketing</option>
+                            <option>AWS</option>
+                            <option>CDK Tooling</option>
+                            <option>Cloud Automation</option>
+                            <option>Other</option>
+
                         </select>
                         {validator.message('subject', forms.subject, 'required')}
                     </div>

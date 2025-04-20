@@ -34,7 +34,7 @@ const ContactArea = (props) => {
                                             </div>
                                         </div> */}
                                         <div className="info-item">
-                                            <h5>michael.gringauz@gmail.com</h5>
+                                            <h5>corescalesolutions@gmail.com</h5>
                                             <div className="info-wrap">
                                                 <div className="info-icon">
                                                     <i className="fi flaticon-mail"></i>
