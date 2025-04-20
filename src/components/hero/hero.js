@@ -29,8 +29,7 @@ const Hero = () => {
                                         {/* <h5>Software Engineer</h5> */}
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
-                                        <p>We seek out help companies get rid of the ir complicated backend infastructure to
-                                            to give them back more time to scale, and innovate efficiently on their product</p>
+                                        <p>Scale faster, innovate freely. We simplify your complex backend infrastructure, freeing your team to focus on your product.</p>
                                     </div>
                                     <div className="clearfix"></div>
                                     <div className="slide-btn"><Link className="theme-btn" to="contact" spy={true} smooth={true} duration={500}>GET STARTED</Link></div>
